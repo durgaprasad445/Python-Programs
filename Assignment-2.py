@@ -1,5 +1,4 @@
 import requests 
-import json
 list_req = []
 for x in range(1,6):
   r = requests.get(url = "https://jsonplaceholder.typicode.com/todos/" + str(x))
