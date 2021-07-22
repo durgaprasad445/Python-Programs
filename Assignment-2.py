@@ -7,5 +7,5 @@ for x in range(6):
   list_req.append(r)
   
 
-for r in list_req:
-    print(list(r.json()))
+for i in list_req:
+    print (i.json())
