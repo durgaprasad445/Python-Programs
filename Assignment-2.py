@@ -8,4 +8,4 @@ for x in range(6):
   
 
 for r in list_req:
-    print(r.json())
+    print(list(r.json()))
